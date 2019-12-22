@@ -13,5 +13,5 @@ RUN pip3 install configparser
 RUN pip3 install oss2
 COPY test1.zip ./
 RUN unzip test1.zip
-CMD ["python3","/usr/local/src/test1/test.py"]
+#CMD ["python3","/usr/local/src/test1/test.py"]
 
