@@ -1,4 +1,5 @@
-FROM ubuntu
+#FROM ubuntu
+FROM 480377481292.dkr.ecr.cn-north-1.amazonaws.com.cn/yuantestrepo:basecn
 WORKDIR /usr/local/src/test1
 RUN apt-get update -qq
 RUN apt-get update
