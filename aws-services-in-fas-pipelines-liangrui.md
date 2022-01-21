@@ -65,13 +65,13 @@ Catalog | Services | Feature | Avaibility |
  Integration and Serverless | CloudWatch | Alarms | Yes
  Integration and Serverless | CloudWatch | Dashboards | Yes
  Integration and Serverless | Step Functions | All | Yes
- Integration and Serverless | SNS | All | Yes
- Integration and Serverless | SQS | FIFO as well | Yes
+ Integration and Serverless | SNS | All | Mobile push notifications and SMS messaging is not available
+ Integration and Serverless | SQS | FIFO  | Yes,SQS dead-letter queue redrive is not available
  Integration and Serverless | Lambda | Function Runtimes: Python, NodeJS, Java | Yes
  Integration and Serverless | Lambda | Layers | Yes
  Integration and Serverless | Lambda | Triggers: SQS, SNS, API Gateway, Step Functions | Yes
  Integration and Serverless | Lambda | Also deployed in VPC | Yes
- Dev Tools | CodeCommit | All | Yes
+ Dev Tools | CodeCommit | All | notification rules is not available
  Dev Tools | CodeBuild | All | Yes
- Dev Tools | CodeArtifact | Domains | Yes
- Dev Tools | CodeArtifact | Repositories | Yes
+ Dev Tools | CodeArtifact | Domains | No, CodeArtifact is not available in BJS and ZHY
+ Dev Tools | CodeArtifact | Repositories | No, CodeArtifact is not available in BJS and ZHY
