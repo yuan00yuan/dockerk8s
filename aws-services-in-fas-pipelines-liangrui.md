@@ -45,65 +45,33 @@ Catalog | Services | Feature | Avaibility |
  Compute | ECS | Task Definitions | Yes
  Compute | ECS | Service Discovery | Yes, CloudMap and AppMesh
  Compute | ECS | Service Discovery | Yes, CloudMap and AppMesh
-
-### Storage & Data
-
-- S3
-    - Bucket Policies
-    - Versioning
-    - Encryption
-    - Event Notifications
-
-- RDS
-    - PostgreSQL Instance
-    - Subnet Groups
-
-- DynamoDB
-    - Tables
-    - Global Secondary Indexes
-
-- ElastiCache
-    - Memcached Cluster
-    - Subnet Groups
-
-- OpenSearch
-    - Engine Version: 7.10
-    - Deployed in VPC
-
-- Glue
-    - Crawler
-    - Catalog DB
-    - Catalog Table
-
-
-### Integration and Serverless
-
-- CloudWatch
-    - Log Groups
-    - Event Rules
-    - Alarms
-    - Dashboards
-
-- Step Functions
-
-- SNS
-
-- SQS
-    - FIFO as well
-
-- Lambda
-    - Function Runtimes: Python, NodeJS, Java
-    - Layers
-    - Triggers: SQS, SNS, API Gateway, Step Functions
-    - Also deployed in VPC
-
-
-### Dev Tools
-
-- CodeCommit
-
-- CodeBuild
-
-- CodeArtifact
-    - Domains
-    - Repositories
+ Storage & Data | S3 | Bucket Policies | Yes
+ Storage & Data | S3 | Versioning | Yes
+ Storage & Data | S3 | Encryption | Yes
+ Storage & Data | S3 | Event Notifications | Yes
+ Storage & Data | RDS | PostgreSQL Instance | Yes
+ Storage & Data | RDS | Subnet Groups | Yes
+ Storage & Data | DynamoDB | Tables | Yes
+ Storage & Data | DynamoDB | Global Secondary Indexes | Yes
+ Storage & Data | ElastiCache | Memcached Cluster | Yes
+ Storage & Data | ElastiCache | Subnet Groups | Yes
+ Storage & Data | OpenSearch | Engine Version: 7.10 | Yes
+ Storage & Data | OpenSearch | Deployed in VPC | Yes
+ Storage & Data | Glue | Crawler | Yes
+ Storage & Data | Glue | Catalog DB | Yes
+ Storage & Data | Glue | Catalog Table | Yes
+ Integration and Serverless | CloudWatch | Log Groups | Yes
+ Integration and Serverless | CloudWatch | Event Rules | Yes
+ Integration and Serverless | CloudWatch | Alarms | Yes
+ Integration and Serverless | CloudWatch | Dashboards | Yes
+ Integration and Serverless | Step Functions | All | Yes
+ Integration and Serverless | SNS | All | Yes
+ Integration and Serverless | SQS | FIFO as well | Yes
+ Integration and Serverless | Lambda | Function Runtimes: Python, NodeJS, Java | Yes
+ Integration and Serverless | Lambda | Layers | Yes
+ Integration and Serverless | Lambda | Triggers: SQS, SNS, API Gateway, Step Functions | Yes
+ Integration and Serverless | Lambda | Also deployed in VPC | Yes
+ Dev Tools | CodeCommit | All | Yes
+ Dev Tools | CodeBuild | All | Yes
+ Dev Tools | CodeArtifact | Domains | Yes
+ Dev Tools | CodeArtifact | Repositories | Yes
